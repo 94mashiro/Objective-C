@@ -33,6 +33,10 @@ static NSString *SectionsTableIdentifier = @"SectionsTableIdentifier";
         UIEdgeInsets contentInset = tableView.contentInset;
         contentInset.top = 20;
         [tableView setContentInset:contentInset];
+        
+        UIView *barBackground = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 20)];
+        barBackground.backgroundColor = [UIColor colorWithWhite:1.0 alpha:1.0];
+        [self.view addSubview:barBackground];
     }
 }
 
