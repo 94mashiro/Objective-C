@@ -28,12 +28,20 @@ static NSString *SectionsTableIdentifier = @"SectionsTableIdentifier";
     NSString *path = [[NSBundle mainBundle] pathForResource:@"sortednames" ofType:@"plist"];
     self.names = [NSDictionary dictionaryWithContentsOfFile:path];
     self.keys = [[self.names allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    
+    if (tableView.style == UITableViewStylePlain) {
+        UIEdgeInsets contentInset = tableView.contentInset;
+        contentInset.top = 20;
+        [tableView setContentInset:contentInset];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 #pragma mark -
 #pragma mark Table View Data Source Methods
@@ -58,6 +66,10 @@ static NSString *SectionsTableIdentifier = @"SectionsTableIdentifier";
     
     cell.textLabel.text = nameSection[indexPath.row];
     return cell;
+}
+
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+    return self.keys;
 }
 
 @end
