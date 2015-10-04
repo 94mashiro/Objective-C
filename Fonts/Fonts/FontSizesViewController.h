@@ -10,4 +10,6 @@
 
 @interface FontSizesViewController : UITableViewController
 
+@property (strong, nonatomic) UIFont *font;
+
 @end

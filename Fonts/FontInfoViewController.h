@@ -10,4 +10,7 @@
 
 @interface FontInfoViewController : UIViewController
 
+@property (strong, nonatomic) UIFont *font;
+@property (assign, nonatomic) BOOL favorite;
+
 @end

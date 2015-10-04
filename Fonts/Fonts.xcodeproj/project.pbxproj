@@ -13,6 +13,11 @@
 		E604A9051BC1570F00DD34CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E604A9031BC1570F00DD34CC /* Main.storyboard */; };
 		E604A9071BC1570F00DD34CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E604A9061BC1570F00DD34CC /* Assets.xcassets */; };
 		E604A90A1BC1570F00DD34CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E604A9081BC1570F00DD34CC /* LaunchScreen.storyboard */; };
+		E635ADB71BC1BEAE0043F4CB /* FontSizesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E635ADB61BC1BEAE0043F4CB /* FontSizesViewController.m */; };
+		E635ADBD1BC1C4840043F4CB /* FontInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E635ADBC1BC1C4840043F4CB /* FontInfoViewController.m */; };
+		E6464F401BC172AA00480A50 /* FavoritesList.m in Sources */ = {isa = PBXBuildFile; fileRef = E6464F3F1BC172AA00480A50 /* FavoritesList.m */; };
+		E68D43EA1BC1986200C196DF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68D43E91BC1986200C196DF /* RootViewController.m */; };
+		E6A72F461BC1B8DB00CE4AA8 /* FontListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A72F451BC1B8DB00CE4AA8 /* FontListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		E604A9061BC1570F00DD34CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E604A9091BC1570F00DD34CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E604A90B1BC1570F00DD34CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E635ADB51BC1BEAE0043F4CB /* FontSizesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizesViewController.h; sourceTree = "<group>"; };
+		E635ADB61BC1BEAE0043F4CB /* FontSizesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizesViewController.m; sourceTree = "<group>"; };
+		E635ADBB1BC1C4840043F4CB /* FontInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontInfoViewController.h; path = ../FontInfoViewController.h; sourceTree = "<group>"; };
+		E635ADBC1BC1C4840043F4CB /* FontInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontInfoViewController.m; path = ../FontInfoViewController.m; sourceTree = "<group>"; };
+		E6464F3E1BC172AA00480A50 /* FavoritesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesList.h; sourceTree = "<group>"; };
+		E6464F3F1BC172AA00480A50 /* FavoritesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesList.m; sourceTree = "<group>"; };
+		E68D43E81BC1986200C196DF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E68D43E91BC1986200C196DF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E6A72F441BC1B8DB00CE4AA8 /* FontListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontListViewController.h; sourceTree = "<group>"; };
+		E6A72F451BC1B8DB00CE4AA8 /* FontListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +73,21 @@
 		E604A8F91BC1570F00DD34CC /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E635ADBB1BC1C4840043F4CB /* FontInfoViewController.h */,
+				E635ADBC1BC1C4840043F4CB /* FontInfoViewController.m */,
 				E604A8FD1BC1570F00DD34CC /* AppDelegate.h */,
 				E604A8FE1BC1570F00DD34CC /* AppDelegate.m */,
 				E604A9001BC1570F00DD34CC /* ViewController.h */,
 				E604A9011BC1570F00DD34CC /* ViewController.m */,
+				E68D43E81BC1986200C196DF /* RootViewController.h */,
+				E68D43E91BC1986200C196DF /* RootViewController.m */,
+				E635ADB51BC1BEAE0043F4CB /* FontSizesViewController.h */,
+				E635ADB61BC1BEAE0043F4CB /* FontSizesViewController.m */,
 				E604A9031BC1570F00DD34CC /* Main.storyboard */,
+				E6A72F441BC1B8DB00CE4AA8 /* FontListViewController.h */,
+				E6A72F451BC1B8DB00CE4AA8 /* FontListViewController.m */,
+				E6464F3E1BC172AA00480A50 /* FavoritesList.h */,
+				E6464F3F1BC172AA00480A50 /* FavoritesList.m */,
 				E604A9061BC1570F00DD34CC /* Assets.xcassets */,
 				E604A9081BC1570F00DD34CC /* LaunchScreen.storyboard */,
 				E604A90B1BC1570F00DD34CC /* Info.plist */,
@@ -110,6 +135,7 @@
 				TargetAttributes = {
 					E604A8F61BC1570F00DD34CC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QS95TTV4CR;
 					};
 				};
 			};
@@ -150,8 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E604A9021BC1570F00DD34CC /* ViewController.m in Sources */,
+				E6464F401BC172AA00480A50 /* FavoritesList.m in Sources */,
+				E635ADB71BC1BEAE0043F4CB /* FontSizesViewController.m in Sources */,
 				E604A8FF1BC1570F00DD34CC /* AppDelegate.m in Sources */,
+				E6A72F461BC1B8DB00CE4AA8 /* FontListViewController.m in Sources */,
+				E635ADBD1BC1C4840043F4CB /* FontInfoViewController.m in Sources */,
 				E604A8FC1BC1570F00DD34CC /* main.m in Sources */,
+				E68D43EA1BC1986200C196DF /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +292,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Fonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.loli.Fonts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Fonts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.loli.Fonts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +333,7 @@
 				E604A9101BC1570F00DD34CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
