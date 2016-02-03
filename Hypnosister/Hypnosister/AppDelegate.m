@@ -1,12 +1,14 @@
 //
 //  AppDelegate.m
-//  Fonts
+//  Hypnosister
 //
-//  Created by Shiina Mashiro on 15/10/4.
-//  Copyright © 2015年 Shiina Mashiro. All rights reserved.
+//  Created by Shiina Mashiro on 16/1/25.
+//  Copyright © 2016年 Shiina Mashiro. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "HypnosisView.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     return YES;
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -42,8 +42,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
-
 
 @end

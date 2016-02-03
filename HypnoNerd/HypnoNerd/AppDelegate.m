@@ -1,12 +1,14 @@
 //
 //  AppDelegate.m
-//  Fonts
+//  HypnoNerd
 //
-//  Created by Shiina Mashiro on 15/10/4.
-//  Copyright © 2015年 Shiina Mashiro. All rights reserved.
+//  Created by Shiina Mashiro on 16/1/28.
+//  Copyright © 2016年 Shiina Mashiro. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "HypnosisViewController.h"
+#import "ReminderViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
+    NSBundle *appBundle = [NSBundle mainBundle];
+    RemindViewController *rvc = [[RemindViewController alloc] initWithNibName:@"ReminderViewController" bundle:appBundle];
+//    self.window.rootViewController = rvc;
+//    self.window.rootViewController = hvc;
     
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc, rvc];
+    self.window.rootViewController = tabBarController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -42,8 +53,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
-
 
 @end

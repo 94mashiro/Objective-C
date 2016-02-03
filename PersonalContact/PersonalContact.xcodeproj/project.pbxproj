@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E626EAE91BC919B100E4BA04 /* EditContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E626EAE81BC919B100E4BA04 /* EditContactViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E6E093561BC69CC50099BF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E093551BC69CC50099BF19 /* main.m */; };
+		E6E093591BC69CC50099BF19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E093581BC69CC50099BF19 /* AppDelegate.m */; };
+		E6E0935F1BC69CC50099BF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E0935D1BC69CC50099BF19 /* Main.storyboard */; };
+		E6E093611BC69CC50099BF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E093601BC69CC50099BF19 /* Assets.xcassets */; };
+		E6E093641BC69CC50099BF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E093621BC69CC50099BF19 /* LaunchScreen.storyboard */; };
+		E6E093731BC6A87A0099BF19 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E093721BC6A87A0099BF19 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E6E093761BC6AC1A0099BF19 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E093751BC6AC1A0099BF19 /* ContactsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E6E093811BC6B3460099BF19 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0937E1BC6B3460099BF19 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		E6E093861BC6DA970099BF19 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E093851BC6DA970099BF19 /* AddContactViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E6E093891BC6DEC30099BF19 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E093881BC6DEC30099BF19 /* Contact.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E626EAE71BC919B100E4BA04 /* EditContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditContactViewController.h; sourceTree = "<group>"; };
+		E626EAE81BC919B100E4BA04 /* EditContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditContactViewController.m; sourceTree = "<group>"; };
+		E6E093511BC69CC50099BF19 /* PersonalContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E093551BC69CC50099BF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6E093571BC69CC50099BF19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6E093581BC69CC50099BF19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6E0935E1BC69CC50099BF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6E093601BC69CC50099BF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E093631BC69CC50099BF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6E093651BC69CC50099BF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E093711BC6A87A0099BF19 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E6E093721BC6A87A0099BF19 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E6E093741BC6AC1A0099BF19 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		E6E093751BC6AC1A0099BF19 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
+		E6E0937C1BC6B3460099BF19 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		E6E0937D1BC6B3460099BF19 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E6E0937E1BC6B3460099BF19 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E6E093841BC6DA970099BF19 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		E6E093851BC6DA970099BF19 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		E6E093871BC6DEC30099BF19 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		E6E093881BC6DEC30099BF19 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E0934E1BC69CC50099BF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6E093481BC69CC50099BF19 = {
+			isa = PBXGroup;
+			children = (
+				E6E093531BC69CC50099BF19 /* PersonalContact */,
+				E6E093521BC69CC50099BF19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E093521BC69CC50099BF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E093511BC69CC50099BF19 /* PersonalContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E093531BC69CC50099BF19 /* PersonalContact */ = {
+			isa = PBXGroup;
+			children = (
+				E6E093791BC6B3460099BF19 /* MBProgressHUD */,
+				E6E0936B1BC69CCF0099BF19 /* Classes */,
+				E6E0935D1BC69CC50099BF19 /* Main.storyboard */,
+				E6E093601BC69CC50099BF19 /* Assets.xcassets */,
+				E6E093621BC69CC50099BF19 /* LaunchScreen.storyboard */,
+				E6E093651BC69CC50099BF19 /* Info.plist */,
+				E6E093541BC69CC50099BF19 /* Supporting Files */,
+			);
+			path = PersonalContact;
+			sourceTree = "<group>";
+		};
+		E6E093541BC69CC50099BF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E093551BC69CC50099BF19 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6E0936B1BC69CCF0099BF19 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E6E093701BC69CF40099BF19 /* Other */,
+				E6E0936F1BC69CEE0099BF19 /* Controller */,
+				E6E0936E1BC69CE60099BF19 /* Model */,
+				E6E0936D1BC69CE00099BF19 /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E6E0936D1BC69CE00099BF19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E6E0936E1BC69CE60099BF19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6E093871BC6DEC30099BF19 /* Contact.h */,
+				E6E093881BC6DEC30099BF19 /* Contact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E6E0936F1BC69CEE0099BF19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6E093711BC6A87A0099BF19 /* LoginViewController.h */,
+				E6E093721BC6A87A0099BF19 /* LoginViewController.m */,
+				E6E093741BC6AC1A0099BF19 /* ContactsViewController.h */,
+				E6E093751BC6AC1A0099BF19 /* ContactsViewController.m */,
+				E6E093841BC6DA970099BF19 /* AddContactViewController.h */,
+				E6E093851BC6DA970099BF19 /* AddContactViewController.m */,
+				E626EAE71BC919B100E4BA04 /* EditContactViewController.h */,
+				E626EAE81BC919B100E4BA04 /* EditContactViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E6E093701BC69CF40099BF19 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E6E093571BC69CC50099BF19 /* AppDelegate.h */,
+				E6E093581BC69CC50099BF19 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E6E093791BC6B3460099BF19 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E6E0937C1BC6B3460099BF19 /* MBProgressHUD-Prefix.pch */,
+				E6E0937D1BC6B3460099BF19 /* MBProgressHUD.h */,
+				E6E0937E1BC6B3460099BF19 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E093501BC69CC50099BF19 /* PersonalContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E093681BC69CC50099BF19 /* Build configuration list for PBXNativeTarget "PersonalContact" */;
+			buildPhases = (
+				E6E0934D1BC69CC50099BF19 /* Sources */,
+				E6E0934E1BC69CC50099BF19 /* Frameworks */,
+				E6E0934F1BC69CC50099BF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalContact;
+			productName = PersonalContact;
+			productReference = E6E093511BC69CC50099BF19 /* PersonalContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E093491BC69CC50099BF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Shiina Mashiro";
+				TargetAttributes = {
+					E6E093501BC69CC50099BF19 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = QS95TTV4CR;
+					};
+				};
+			};
+			buildConfigurationList = E6E0934C1BC69CC50099BF19 /* Build configuration list for PBXProject "PersonalContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E093481BC69CC50099BF19;
+			productRefGroup = E6E093521BC69CC50099BF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E093501BC69CC50099BF19 /* PersonalContact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E0934F1BC69CC50099BF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E093641BC69CC50099BF19 /* LaunchScreen.storyboard in Resources */,
+				E6E093611BC69CC50099BF19 /* Assets.xcassets in Resources */,
+				E6E0935F1BC69CC50099BF19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E0934D1BC69CC50099BF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E093591BC69CC50099BF19 /* AppDelegate.m in Sources */,
+				E6E093861BC6DA970099BF19 /* AddContactViewController.m in Sources */,
+				E6E093761BC6AC1A0099BF19 /* ContactsViewController.m in Sources */,
+				E6E093811BC6B3460099BF19 /* MBProgressHUD.m in Sources */,
+				E6E093891BC6DEC30099BF19 /* Contact.m in Sources */,
+				E6E093561BC69CC50099BF19 /* main.m in Sources */,
+				E6E093731BC6A87A0099BF19 /* LoginViewController.m in Sources */,
+				E626EAE91BC919B100E4BA04 /* EditContactViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6E0935D1BC69CC50099BF19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E0935E1BC69CC50099BF19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6E093621BC69CC50099BF19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E093631BC69CC50099BF19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E093661BC69CC50099BF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6E093671BC69CC50099BF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E093691BC69CC50099BF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.loli.PersonalContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6E0936A1BC69CC50099BF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.loli.PersonalContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E0934C1BC69CC50099BF19 /* Build configuration list for PBXProject "PersonalContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E093661BC69CC50099BF19 /* Debug */,
+				E6E093671BC69CC50099BF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E093681BC69CC50099BF19 /* Build configuration list for PBXNativeTarget "PersonalContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E093691BC69CC50099BF19 /* Debug */,
+				E6E0936A1BC69CC50099BF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E093491BC69CC50099BF19 /* Project object */;
+}

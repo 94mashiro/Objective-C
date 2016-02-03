@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  Fonts
+//  Homepwner
 //
-//  Created by Shiina Mashiro on 15/10/4.
-//  Copyright © 2015年 Shiina Mashiro. All rights reserved.
+//  Created by Shiina Mashiro on 16/1/31.
+//  Copyright © 2016年 Shiina Mashiro. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ItemViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    ItemViewController *itemsViewController = [[ItemViewController alloc] init];
+    self.window.rootViewController = itemsViewController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -42,8 +46,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
-
 
 @end

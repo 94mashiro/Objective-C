@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  Fonts
+//  DialogViewer
 //
-//  Created by Shiina Mashiro on 15/10/4.
-//  Copyright © 2015年 Shiina Mashiro. All rights reserved.
+//  Created by Shiina Mashiro on 10/5/15.
+//  Copyright © 2015 Shiina Mashiro. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -18,7 +18,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -42,8 +41,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
-
 
 @end
