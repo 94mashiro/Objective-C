@@ -29,6 +29,21 @@
     tabBarController.viewControllers = @[hvc, rvc];
     self.window.rootViewController = tabBarController;
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+    else {
+        [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge];
+    }
+
+    
+    
+    
+    
+    
+    
     return YES;
 }
 

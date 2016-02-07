@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E604A6EF1C62512600944513 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E604A6EE1C62512600944513 /* HeaderView.xib */; };
+		E626403E1C63807F00F4590C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E626403C1C63807F00F4590C /* DetailViewController.m */; };
+		E626403F1C63807F00F4590C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E626403D1C63807F00F4590C /* DetailViewController.xib */; };
 		E66858B31C5E0D970056E262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E66858B21C5E0D970056E262 /* main.m */; };
 		E66858B61C5E0D970056E262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E66858B51C5E0D970056E262 /* AppDelegate.m */; };
-		E66858B91C5E0D970056E262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66858B81C5E0D970056E262 /* ViewController.m */; };
 		E66858BC1C5E0D970056E262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66858BA1C5E0D970056E262 /* Main.storyboard */; };
 		E66858BE1C5E0D970056E262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66858BD1C5E0D970056E262 /* Assets.xcassets */; };
 		E66858C11C5E0D970056E262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E66858BF1C5E0D970056E262 /* LaunchScreen.storyboard */; };
@@ -21,12 +22,13 @@
 
 /* Begin PBXFileReference section */
 		E604A6EE1C62512600944513 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		E626403B1C63807F00F4590C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E626403C1C63807F00F4590C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E626403D1C63807F00F4590C /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		E66858AE1C5E0D970056E262 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66858B21C5E0D970056E262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E66858B41C5E0D970056E262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E66858B51C5E0D970056E262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E66858B71C5E0D970056E262 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E66858B81C5E0D970056E262 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E66858BB1C5E0D970056E262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E66858BD1C5E0D970056E262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66858C01C5E0D970056E262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,19 +71,20 @@
 		E66858B01C5E0D970056E262 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				E66858BD1C5E0D970056E262 /* Assets.xcassets */,
+				E66858B11C5E0D970056E262 /* Supporting Files */,
 				E66858CE1C5EDBDE0056E262 /* BNRItem.h */,
 				E66858CF1C5EDBDE0056E262 /* BNRItem.m */,
 				E66858B41C5E0D970056E262 /* AppDelegate.h */,
 				E66858B51C5E0D970056E262 /* AppDelegate.m */,
-				E66858B71C5E0D970056E262 /* ViewController.h */,
-				E66858B81C5E0D970056E262 /* ViewController.m */,
 				E66858BA1C5E0D970056E262 /* Main.storyboard */,
-				E66858BD1C5E0D970056E262 /* Assets.xcassets */,
 				E66858BF1C5E0D970056E262 /* LaunchScreen.storyboard */,
 				E66858C21C5E0D970056E262 /* Info.plist */,
-				E66858B11C5E0D970056E262 /* Supporting Files */,
 				E66858C81C5E0DC60056E262 /* ItemViewController.h */,
 				E66858C91C5E0DC60056E262 /* ItemViewController.m */,
+				E626403B1C63807F00F4590C /* DetailViewController.h */,
+				E626403C1C63807F00F4590C /* DetailViewController.m */,
+				E626403D1C63807F00F4590C /* DetailViewController.xib */,
 				E604A6EE1C62512600944513 /* HeaderView.xib */,
 				E6D1F4531C5EDE0300BF52BA /* ItemStore.h */,
 				E6D1F4541C5EDE0300BF52BA /* ItemStore.m */,
@@ -157,6 +160,7 @@
 			files = (
 				E66858C11C5E0D970056E262 /* LaunchScreen.storyboard in Resources */,
 				E604A6EF1C62512600944513 /* HeaderView.xib in Resources */,
+				E626403F1C63807F00F4590C /* DetailViewController.xib in Resources */,
 				E66858BE1C5E0D970056E262 /* Assets.xcassets in Resources */,
 				E66858BC1C5E0D970056E262 /* Main.storyboard in Resources */,
 			);
@@ -169,12 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66858B91C5E0D970056E262 /* ViewController.m in Sources */,
 				E66858CA1C5E0DC60056E262 /* ItemViewController.m in Sources */,
 				E6D1F4551C5EDE0300BF52BA /* ItemStore.m in Sources */,
 				E66858D01C5EDBDE0056E262 /* BNRItem.m in Sources */,
 				E66858B61C5E0D970056E262 /* AppDelegate.m in Sources */,
 				E66858B31C5E0D970056E262 /* main.m in Sources */,
+				E626403E1C63807F00F4590C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

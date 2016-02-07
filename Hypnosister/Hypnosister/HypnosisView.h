@@ -8,5 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HypnosisView : UIView
+@interface HypnosisView : UIView <UIScrollViewDelegate>
 @end

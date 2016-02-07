@@ -19,7 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     ItemViewController *itemsViewController = [[ItemViewController alloc] init];
-    self.window.rootViewController = itemsViewController;
+//    self.window.rootViewController = itemsViewController;
+    // 初始化UINavigationController并将itemsViewController设置为UINavigationController的根视图控制器，也就是栈底控制器
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:itemsViewController];
+    self.window.rootViewController = navController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

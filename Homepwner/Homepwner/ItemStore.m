@@ -48,4 +48,21 @@
     return item;
 }
 
+- (void)removeItem:(BNRItem *)item {
+    // removeObjectIdenticalTo: Removes all occurrences of a given object in the array.
+    [self.privateItems removeObjectIdenticalTo:item];
+}
+
+- (void)moveItemAtIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex {
+    if (fromIndex == toIndex) {
+        return;
+    }
+    // 获取要移动的对象的指针
+    BNRItem *item = self.privateItems[fromIndex];
+    // 在allItems数组中移除item
+    [self.privateItems removeObjectAtIndex:fromIndex];
+    // 将item以新索引位置插入allItems数组中，完成对item在数组中的移动
+    [self.privateItems insertObject:item atIndex:toIndex];
+}
+
 @end

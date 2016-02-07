@@ -27,7 +27,7 @@
     CGRect screenRect = self.view.bounds;
     CGRect bigRect = screenRect;
     bigRect.size.width *= 2.0;
-//    bigRect.size.height *= 2.0;
+    bigRect.size.height *= 2.0;
     
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
     [scrollView setPagingEnabled:NO];
@@ -52,5 +52,7 @@
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return self.hypnosisView;
 }
+
+
 
 @end
