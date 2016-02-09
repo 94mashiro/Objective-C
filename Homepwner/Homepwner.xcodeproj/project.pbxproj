@@ -18,6 +18,7 @@
 		E66858CA1C5E0DC60056E262 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66858C91C5E0DC60056E262 /* ItemViewController.m */; };
 		E66858D01C5EDBDE0056E262 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E66858CF1C5EDBDE0056E262 /* BNRItem.m */; };
 		E6D1F4551C5EDE0300BF52BA /* ItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D1F4541C5EDE0300BF52BA /* ItemStore.m */; };
+		E6DF61C51C673BF0008201F2 /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF61C41C673BF0008201F2 /* ImageStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		E66858CF1C5EDBDE0056E262 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		E6D1F4531C5EDE0300BF52BA /* ItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemStore.h; sourceTree = "<group>"; };
 		E6D1F4541C5EDE0300BF52BA /* ItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemStore.m; sourceTree = "<group>"; };
+		E6DF61C31C673BF0008201F2 /* ImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStore.h; sourceTree = "<group>"; };
+		E6DF61C41C673BF0008201F2 /* ImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				E604A6EE1C62512600944513 /* HeaderView.xib */,
 				E6D1F4531C5EDE0300BF52BA /* ItemStore.h */,
 				E6D1F4541C5EDE0300BF52BA /* ItemStore.m */,
+				E6DF61C31C673BF0008201F2 /* ImageStore.h */,
+				E6DF61C41C673BF0008201F2 /* ImageStore.m */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			files = (
 				E66858CA1C5E0DC60056E262 /* ItemViewController.m in Sources */,
 				E6D1F4551C5EDE0300BF52BA /* ItemStore.m in Sources */,
+				E6DF61C51C673BF0008201F2 /* ImageStore.m in Sources */,
 				E66858D01C5EDBDE0056E262 /* BNRItem.m in Sources */,
 				E66858B61C5E0D970056E262 /* AppDelegate.m in Sources */,
 				E66858B31C5E0D970056E262 /* main.m in Sources */,
@@ -289,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Homepwner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.loli.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Homepwner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.loli.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";

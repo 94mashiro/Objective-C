@@ -6,6 +6,7 @@
 //  Copyright © 2016年 Shiina Mashiro. All rights reserved.
 //
 
+#import "ImageStore.h"
 #import "ItemStore.h"
 #import "BNRItem.h"
 
@@ -49,6 +50,8 @@
 }
 
 - (void)removeItem:(BNRItem *)item {
+    NSString *key  = item.itemKey;
+    [[ImageStore sharedStore] deleteImageForKey:key];
     // removeObjectIdenticalTo: Removes all occurrences of a given object in the array.
     [self.privateItems removeObjectIdenticalTo:item];
 }
